@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wtxoiDW1tyrGfZr2/SwPtj7Yn0S3fu/ZPnBu2frEXQ6L6XS7kk8sKIVY4adINvFrd3MbVWRimbMgl9LE/6uwEg==",
+  "success": true,
+  "projectFilePath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Services\\DesafioSoftplan.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gustavo.vieira\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\gustavo.vieira\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\gustavo.vieira\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

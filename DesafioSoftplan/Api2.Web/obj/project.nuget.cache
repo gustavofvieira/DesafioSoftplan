@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MixR7lxcJZ9osVSl5JTy9KlFYmqFUpEA1d/BhJqK52D50iaiQt8rEs2Wb7ZepBn4sdwLKctM7lVGGNxOXb37AQ==",
+  "success": true,
+  "projectFilePath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\Api2.Web\\Api2.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gustavo.vieira\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\gustavo.vieira\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
