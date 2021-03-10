@@ -27,13 +27,7 @@ namespace Api2.Web.Controllers
             return "value";
         }
 
-        //// POST api/<CalculaController>
-        //[HttpPost]
-        //public void Post([FromBody] string? value)
-        //{
-        //}
-
-        // POST api/<CalculaController>
+       
         [HttpPost]
         
         public ActionResult<CalculaJurosVM> Post(CalculaJurosVM calculaJurosVM)

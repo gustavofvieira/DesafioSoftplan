@@ -1,52 +1,66 @@
-﻿using System;
+﻿using DesafioSoftplan.Domain.Interfaces;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Net.Http;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace DesafioSoftplan.Domain.ViewModels
 {
     public class CalculaJurosVM
     {
-        private readonly string _baseUrlJuros = "taxaJuros";
+        /*
+         Body -> raw -> Json
+        {
+           "ValorInical": 100,
+            "Meses": 5
+         }
+         
+         */
+
+        string uri = "https://localhost:44303/taxaJuros";
+
         public double ValorInical { get; set; }
         public int Meses { get; set; }
 
-        public double ConsultaTaxaJuros()
-        {
 
-            return 0.01;
-        }
         public double CalculaJuros(CalculaJurosVM calculaJurosVM)
         {
-           
-            var juros = Math.Round(Math.Pow(calculaJurosVM.ValorInical * (1 + ConsultaTaxaJuros()), calculaJurosVM.Meses) / Math.Pow(10,8), 2);
-
-           // var pw = Math.Pow(juros, calculaJurosVM.Meses);
+            var juros = Math.Round(Math.Pow(calculaJurosVM.ValorInical * (1 + ConsultaTaxaJuros().Result), calculaJurosVM.Meses) / Math.Pow(10, 8), 2); 
             return juros;
         }
 
-
-
-        private readonly string _baseUrlServidor = "api/servidor";
-        private readonly string _baseUrlServidorImagem = "api/servidorImagem";
-        private readonly RequestService _requestService;
-        public HubProdebService(IAcessInfoHubProdeb accessInfo)
+        public async Task<double> ConsultaTaxaJuros()
         {
-            _requestService = new RequestService(accessInfo);
+            try
+            {
+                double taxa;
+                using (var client = new HttpClient())
+                {
+                    using (var response = await client.GetAsync(uri))
+                    {
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var Json = await response.Content.ReadAsStringAsync();
+                            taxa = JsonConvert.DeserializeObject<double>(Json);
+                            return taxa;
+                        }
+                    }
+                }
+                return 0;
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
         }
 
-        public ServidorVM CadastrarImagem(ServidorVM servidorVM)
+        private double BadRequest(string message)
         {
-            return _requestService.MakeRequest<ServidorVM>(_baseUrlServidor + "/cadastrarimagem/", Method.POST, servidorVM);
-        }
-        public virtual TEntity MakeRequest<TEntity>(string path, Method method, object payload = null, List<Parameter> parameters = null)
-        {
-            var request = CreateRestRequest(path, method, payload, parameters);
-
-            var client = RequestEngine.CreateClient(_accessInfo);
-
-            var response = RequestEngine.ExecuteRequest<TEntity>(client, request, _accessInfo);
-
-            return response;
+            throw new NotImplementedException();
         }
     }
 }
