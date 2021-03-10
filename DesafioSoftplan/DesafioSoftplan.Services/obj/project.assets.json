@@ -128,23 +128,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gustavo.vieira\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\gusta\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Services\\DesafioSoftplan.Services.csproj",
+      "projectUniqueName": "B:\\Direcionamento de pastas\\Backup Atual\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Services\\DesafioSoftplan.Services.csproj",
       "projectName": "DesafioSoftplan.Services",
-      "projectPath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Services\\DesafioSoftplan.Services.csproj",
-      "packagesPath": "C:\\Users\\gustavo.vieira\\.nuget\\packages\\",
-      "outputPath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Services\\obj\\",
+      "projectPath": "B:\\Direcionamento de pastas\\Backup Atual\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Services\\DesafioSoftplan.Services.csproj",
+      "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+      "outputPath": "B:\\Direcionamento de pastas\\Backup Atual\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\gustavo.vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -159,8 +162,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Domain\\DesafioSoftplan.Domain.csproj": {
-              "projectPath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Domain\\DesafioSoftplan.Domain.csproj"
+            "B:\\Direcionamento de pastas\\Backup Atual\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Domain\\DesafioSoftplan.Domain.csproj": {
+              "projectPath": "B:\\Direcionamento de pastas\\Backup Atual\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Domain\\DesafioSoftplan.Domain.csproj"
             }
           }
         }
@@ -203,7 +206,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

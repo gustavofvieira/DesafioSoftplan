@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MixR7lxcJZ9osVSl5JTy9KlFYmqFUpEA1d/BhJqK52D50iaiQt8rEs2Wb7ZepBn4sdwLKctM7lVGGNxOXb37AQ==",
+  "dgSpecHash": "7uhyoZRUPUaqDTiJqnGS+WEL0G7qd8KuQFilfLOYyQkqJYIfvED5yripHPXWP3isCJodkI1LW1Ggz+h/HEA9+A==",
   "success": true,
-  "projectFilePath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\Api2.Web\\Api2.Web.csproj",
+  "projectFilePath": "B:\\Direcionamento de pastas\\Backup Atual\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\Api2.Web\\Api2.Web.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gustavo.vieira\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\gustavo.vieira\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

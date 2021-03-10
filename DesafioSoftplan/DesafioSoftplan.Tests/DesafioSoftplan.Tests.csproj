@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioSoftplan.Domain\DesafioSoftplan.Domain.csproj" />
+    <ProjectReference Include="..\DesafioSoftplan.Services\DesafioSoftplan.Services.csproj" />
+  </ItemGroup>
+
 </Project>
