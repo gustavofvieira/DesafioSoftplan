@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "DesafioSoftplan.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/DesafioSoftplan.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DesafioSoftplan.Domain.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "DesafioSoftplan.Domain/1.0.0": {
-      "type": "project",
-      "path": "../DesafioSoftplan.Domain/DesafioSoftplan.Domain.csproj",
-      "msbuildProject": "../DesafioSoftplan.Domain/DesafioSoftplan.Domain.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "DesafioSoftplan.Domain >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\gustavo.vieira\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\Api2.Web\\Api2.Web.csproj",
-      "projectName": "Api2.Web",
-      "projectPath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\Api2.Web\\Api2.Web.csproj",
+      "projectUniqueName": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Domain\\DesafioSoftplan.Domain.csproj",
+      "projectName": "DesafioSoftplan.Domain",
+      "projectPath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Domain\\DesafioSoftplan.Domain.csproj",
       "packagesPath": "C:\\Users\\gustavo.vieira\\.nuget\\packages\\",
-      "outputPath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\Api2.Web\\obj\\",
+      "outputPath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -57,11 +38,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Domain\\DesafioSoftplan.Domain.csproj": {
-              "projectPath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Domain\\DesafioSoftplan.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -84,9 +61,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

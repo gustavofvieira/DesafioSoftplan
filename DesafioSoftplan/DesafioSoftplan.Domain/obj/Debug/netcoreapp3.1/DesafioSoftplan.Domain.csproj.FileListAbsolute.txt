@@ -1,0 +1,9 @@
+B:\Direcionamento de pastas\gustavo.vieira\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\DesafioSoftplan.Domain\bin\Debug\netcoreapp3.1\DesafioSoftplan.Domain.deps.json
+B:\Direcionamento de pastas\gustavo.vieira\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\DesafioSoftplan.Domain\bin\Debug\netcoreapp3.1\DesafioSoftplan.Domain.dll
+B:\Direcionamento de pastas\gustavo.vieira\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\DesafioSoftplan.Domain\bin\Debug\netcoreapp3.1\DesafioSoftplan.Domain.pdb
+B:\Direcionamento de pastas\gustavo.vieira\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\DesafioSoftplan.Domain\obj\Debug\netcoreapp3.1\DesafioSoftplan.Domain.csprojAssemblyReference.cache
+B:\Direcionamento de pastas\gustavo.vieira\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\DesafioSoftplan.Domain\obj\Debug\netcoreapp3.1\DesafioSoftplan.Domain.AssemblyInfoInputs.cache
+B:\Direcionamento de pastas\gustavo.vieira\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\DesafioSoftplan.Domain\obj\Debug\netcoreapp3.1\DesafioSoftplan.Domain.AssemblyInfo.cs
+B:\Direcionamento de pastas\gustavo.vieira\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\DesafioSoftplan.Domain\obj\Debug\netcoreapp3.1\DesafioSoftplan.Domain.csproj.CoreCompileInputs.cache
+B:\Direcionamento de pastas\gustavo.vieira\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\DesafioSoftplan.Domain\obj\Debug\netcoreapp3.1\DesafioSoftplan.Domain.dll
+B:\Direcionamento de pastas\gustavo.vieira\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\DesafioSoftplan.Domain\obj\Debug\netcoreapp3.1\DesafioSoftplan.Domain.pdb

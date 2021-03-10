@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6CJgeuWUmJg2VN/IIiZPaaQcC1vgQSlRj9MtmJKxv96zk80zSvJh4czcrCklOA1dCbVxwYG9ID1ULgx03QUHnA==",
+  "success": true,
+  "projectFilePath": "B:\\Direcionamento de pastas\\gustavo.vieira\\Documents\\GitHub\\DesafioSoftplan\\DesafioSoftplan\\DesafioSoftplan.Services\\DesafioSoftplan.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gustavo.vieira\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\gustavo.vieira\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}
