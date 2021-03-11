@@ -48,3 +48,8 @@ B:\Direcionamento de pastas\Backup Atual\Documents\GitHub\DesafioSoftplan\Desafi
 B:\Direcionamento de pastas\Backup Atual\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\Api2.Web\obj\Debug\netcoreapp3.1\Api2.Web.dll
 B:\Direcionamento de pastas\Backup Atual\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\Api2.Web\obj\Debug\netcoreapp3.1\Api2.Web.pdb
 B:\Direcionamento de pastas\Backup Atual\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\Api2.Web\obj\Debug\netcoreapp3.1\Api2.Web.genruntimeconfig.cache
+B:\Direcionamento de pastas\Backup Atual\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\Api2.Web\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+B:\Direcionamento de pastas\Backup Atual\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\Api2.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+B:\Direcionamento de pastas\Backup Atual\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\Api2.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+B:\Direcionamento de pastas\Backup Atual\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\Api2.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+B:\Direcionamento de pastas\Backup Atual\Documents\GitHub\DesafioSoftplan\DesafioSoftplan\Api2.Web\obj\Debug\netcoreapp3.1\Api2.Web.MvcApplicationPartsAssemblyInfo.cs
