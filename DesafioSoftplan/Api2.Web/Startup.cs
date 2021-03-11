@@ -40,6 +40,13 @@ namespace Api2.Web
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DesafioSoftplan"));
+                //app.UseSwaggerUI(c =>
+                //{
+                //    c.RoutePrefix = string.Empty;
+                //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+                //});
             }
 
             app.UseHttpsRedirection();
@@ -53,13 +60,7 @@ namespace Api2.Web
                 endpoints.MapControllers();
             });
 
-            app.UseSwagger();
-
-            app.UseSwaggerUI(c =>
-            {
-                c.RoutePrefix = string.Empty;
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
-            });
+            
         }
     }
 }
