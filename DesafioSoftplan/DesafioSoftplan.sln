@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{E45599B1-3371-4D82-AC47-F4BF424A9E5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioSoftplan.Tests", "DesafioSoftplan.Tests\DesafioSoftplan.Tests.csproj", "{8BAE6F3A-DE3D-4996-9CEE-6CCB730DF43B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioSoftplan.Tests", "DesafioSoftplan.Tests\DesafioSoftplan.Tests.csproj", "{8BAE6F3A-DE3D-4996-9CEE-6CCB730DF43B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api1.Web", "Api1.Web\Api1.Web.csproj", "{067D4DEA-32B5-47E7-92F3-ECA26F7953C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api1.Web", "Api1.Web\Api1.Web.csproj", "{067D4DEA-32B5-47E7-92F3-ECA26F7953C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{5EAB6CE3-64B7-4FE8-9B11-DB64187BCB1E}"
 EndProject
@@ -17,11 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{0314D629-AB6C-49A4-896E-E036C849AAB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api2.Web", "Api2.Web\Api2.Web.csproj", "{8D567373-792F-41E4-91EF-007B62C6BCAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api2.Web", "Api2.Web\Api2.Web.csproj", "{8D567373-792F-41E4-91EF-007B62C6BCAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioSoftplan.Domain", "DesafioSoftplan.Domain\DesafioSoftplan.Domain.csproj", "{103E3C9E-2B87-4B49-9A8B-B742DCE76AC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioSoftplan.Domain", "DesafioSoftplan.Domain\DesafioSoftplan.Domain.csproj", "{103E3C9E-2B87-4B49-9A8B-B742DCE76AC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioSoftplan.Services", "DesafioSoftplan.Services\DesafioSoftplan.Services.csproj", "{A760CA63-297B-4E2B-BEC7-2A5288E38A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioSoftplan.Services", "DesafioSoftplan.Services\DesafioSoftplan.Services.csproj", "{A760CA63-297B-4E2B-BEC7-2A5288E38A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api1.Docker.Web", "Api1.Docker.Web\Api1.Docker.Web.csproj", "{C756D143-B00C-407A-86E5-42C41068F44B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api2.Docker.Web", "Api2.Docker.Web\Api2.Docker.Web.csproj", "{70B779D9-CF4A-4EBF-B54B-A236AE784AF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,14 @@ Global
 		{A760CA63-297B-4E2B-BEC7-2A5288E38A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A760CA63-297B-4E2B-BEC7-2A5288E38A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A760CA63-297B-4E2B-BEC7-2A5288E38A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C756D143-B00C-407A-86E5-42C41068F44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C756D143-B00C-407A-86E5-42C41068F44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C756D143-B00C-407A-86E5-42C41068F44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C756D143-B00C-407A-86E5-42C41068F44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B779D9-CF4A-4EBF-B54B-A236AE784AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B779D9-CF4A-4EBF-B54B-A236AE784AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B779D9-CF4A-4EBF-B54B-A236AE784AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B779D9-CF4A-4EBF-B54B-A236AE784AF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +70,8 @@ Global
 		{8D567373-792F-41E4-91EF-007B62C6BCAE} = {E45599B1-3371-4D82-AC47-F4BF424A9E5A}
 		{103E3C9E-2B87-4B49-9A8B-B742DCE76AC5} = {2ED5F4F6-CB35-4927-9FF3-D50785C4B5DE}
 		{A760CA63-297B-4E2B-BEC7-2A5288E38A31} = {5EAB6CE3-64B7-4FE8-9B11-DB64187BCB1E}
+		{C756D143-B00C-407A-86E5-42C41068F44B} = {E45599B1-3371-4D82-AC47-F4BF424A9E5A}
+		{70B779D9-CF4A-4EBF-B54B-A236AE784AF1} = {E45599B1-3371-4D82-AC47-F4BF424A9E5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDDD38CB-AF43-41EA-8F37-DA2E3ED36FD0}

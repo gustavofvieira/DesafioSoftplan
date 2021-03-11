@@ -19,7 +19,7 @@ namespace DesafioSoftplan.Domain.ViewModels
          
          */
 
-        string uri = "https://localhost:44303/taxaJuros";
+        string uri = "https://localhost:49155/taxaJuros";
 
         public double ValorInical { get; set; }
         public int Meses { get; set; }
